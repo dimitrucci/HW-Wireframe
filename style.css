@@ -1,8 +1,78 @@
 
 body {
-    font-family: Arial, Helvetica Neue , Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
 }
+header, nav, section, aside, footer {
+    background: #ebebeb;
+}
+article {
+    color: #ebebeb;
+    background: #777;
+
+}
+header {
+    font-family: 'Roboto Mono', monospace;
+    color:#3a6336;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+nav {
+    right: 0px;
+    left: 0px;
+    height: 80px;
+    position: fixed;
+    top: 100px;
+    bottom: 0px;
+    width: 100%;
+}
+.travel {
+    font-family: 'Turret Road', cursive;
+}
+.ticket {
+    color: red;
+}
+.hotel {
+    color:orange;
+}
+section {
+    right: 0px;
+    left: 0px;
+    height: 60%;
+    position: fixed;
+    top: 180px;
+    bottom: 0px;
+    width: 60%;
+}
+h1, p {color: #777;
+    background: #ebebeb;
+}
+aside {
+    float: right;
+    right: 0px;
+    top: 180px;
+    bottom: 0px;
+    position: fixed;
+    height: 60%;
+    width: 40%;
+    font-style: italic;
+    color: #29627e;
+    text-align: center;
+
+}
+.assided {
+    font-family: 'Turret Road', cursive;
+    font-family: 'Lora', serif;
+    color: #19d14a;
+}
+
+
